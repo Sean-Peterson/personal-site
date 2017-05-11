@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+body{
+  font-family: 'Droid Sans', sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+.nav-bar{
+  font-weight: bold;
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+}
+.nav-bar p{
+  display: inline-block;
+  /*padding-left: 7vw;*/
+}
+.nav-bar p:hover{
+  cursor: pointer;
+}
+#nav-first{
+  padding-right: 7vw;
+  font-size: 5em;
+  margin-left: 1vw;
+}
+#nav-second{
+
+}
+#nav-third{
+
+}
