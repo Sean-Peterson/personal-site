@@ -6,8 +6,8 @@
 
 
 $(document).ready(function() {
-  // function showNav(){
-  //   $("div.hidden").fadeIn(3000).removeClass('hidden');
-  // }
-  // setTimeout(showNav, 5000);
+  function showHidden(){
+    $(".hidden").fadeIn(3000).removeClass('hidden');
+  }
+  setTimeout(showHidden, 2000);
 });
