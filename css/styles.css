@@ -3,14 +3,22 @@
   display: none;
 }
 .content{
-  margin: 100px 0px 0px 0px;
-  background-color: rgba(247, 247, 247, .65);
+  margin: 100px 50px 100px 50px;
+  background-color: rgba(247, 247, 247, .82);
 }
 .content p{
   font-size: 15px;
+  padding: 0px 50px 20px 50px;
+  text-align: left;
+  font-weight: bold;
+}
+.headers{
+  text-align: center;
+  font-size: 32px;
+  padding: 30px 20px 30px 20px;
 }
 .first-section{
-  height: 20px;
+  height: 74vh;
   width: 100vw;
 }
 .fixed{
@@ -30,7 +38,7 @@
   font-weight: bold;
   width: 100%;
   color: white;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, .7);
 }
 .nav-bar p{
   display: inline-block;
@@ -61,6 +69,6 @@
 
 }
 #nav-third{
-  margin-right: 6vw;
+  margin-right: 8vw;
   padding-top: 15px;
 }

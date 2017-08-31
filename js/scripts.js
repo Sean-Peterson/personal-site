@@ -1,6 +1,6 @@
 function showHidden(){
-  $(".hidden").fadeIn(3000).removeClass('hidden');
+  $(".hidden").fadeIn(1500).removeClass('hidden');
 }
 $(document).ready(function() {
-  setTimeout(showHidden, 500);
+  setTimeout(showHidden, 1000);
 });
