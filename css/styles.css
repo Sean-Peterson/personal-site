@@ -2,6 +2,9 @@
 ::-webkit-scrollbar {
   display: none;
 }
+li{
+  list-style-type: none;
+}
 .content{
   margin: 100px 50px 100px 50px;
   background-color: rgba(247, 247, 247, .82);
@@ -11,11 +14,6 @@
   padding: 0px 50px 20px 50px;
   text-align: left;
   font-weight: bold;
-}
-.headers{
-  text-align: center;
-  font-size: 32px;
-  padding: 30px 20px 30px 20px;
 }
 .first-section{
   height: 74vh;
@@ -30,6 +28,17 @@
   position: fixed;
   z-index: -2;
   filter: grayscale(1);
+}
+.headers{
+  text-align: center;
+  font-size: 32px;
+  padding: 30px 20px 30px 20px;
+}
+.list{
+  font-size: 12px;
+  padding: 0px 50px 20px 50px;
+  text-align: left;
+  font-weight: bold;
 }
 .nav-bar{
   height: 50px;
