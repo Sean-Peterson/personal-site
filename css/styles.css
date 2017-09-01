@@ -8,6 +8,7 @@ li{
 .content{
   margin: 100px 50px 100px 50px;
   background-color: rgba(247, 247, 247, .82);
+  box-shadow: 4px 6px 40px 2px #888888;
 }
 .content p{
   font-size: 15px;
