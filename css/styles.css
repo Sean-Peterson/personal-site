@@ -5,6 +5,9 @@
 li{
   list-style-type: none;
 }
+.center{
+  text-align: center;
+}
 .content{
   margin: 100px 50px 100px 50px;
   background-color: rgba(247, 247, 247, .82);
@@ -35,6 +38,14 @@ li{
   font-size: 32px;
   padding: 30px 20px 30px 20px;
 }
+.images{
+  height: 200px;
+  width: 400px;
+  margin: 0 auto;
+}
+.images:hover{
+  cursor: pointer; 
+}
 .list{
   font-size: 12px;
   padding: 0px 50px 20px 50px;
@@ -57,6 +68,16 @@ li{
 }
 .nav-bar p:hover{
   cursor: pointer;
+}
+.pop{
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+.sub-headers{
+  padding: 0px 0px 0px 50px;
+  text-align: left;
+  font-weight: bold;
 }
 #full-name{
   font-size: 24px;
