@@ -17,6 +17,9 @@ li{
   background-color: rgba(247, 247, 247, .82);
   box-shadow: 4px 6px 40px 2px #888888;
 }
+.content a{
+  color: black;
+}
 .content p{
   font-size: 20px;
   padding: 0px 50px 20px 50px;
