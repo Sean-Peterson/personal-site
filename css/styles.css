@@ -45,11 +45,11 @@ li{
   font-weight: bold;
   width: 100%;
   color: white;
-  background-color: rgba(0, 0, 0, .7);
+  /*background-color: rgba(0, 0, 0, .7);*/
 
 }
 .footer-text{
-  color: gray;
+  color: black;
 }
 
 .footer-img{
