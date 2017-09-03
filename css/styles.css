@@ -6,6 +6,9 @@ li{
   list-style-type: none;
   margin-left: 10px;
 }
+.whole{
+  font-family: 'Droid Sans';
+}
 .center{
   text-align: center;
 }
@@ -15,10 +18,9 @@ li{
   box-shadow: 4px 6px 40px 2px #888888;
 }
 .content p{
-  font-size: 15px;
+  font-size: 22px;
   padding: 0px 50px 20px 50px;
   text-align: left;
-  font-weight: bold;
 }
 .first-section{
   height: 74vh;
@@ -54,8 +56,8 @@ li{
 }
 .headers{
   text-align: center;
-  font-size: 32px;
-  padding: 30px 20px 30px 20px;
+  font-size: 50px;
+  padding: 20px 20px 20px 20px;
 }
 .images{
   height: 200px;
@@ -66,10 +68,9 @@ li{
   cursor: pointer;
 }
 .list{
-  font-size: 12px;
+  font-size: 18px;
   padding: 0px 50px 20px 50px;
   text-align: left;
-  font-weight: bold;
 }
 .nav-bar{
   height: 50px;
