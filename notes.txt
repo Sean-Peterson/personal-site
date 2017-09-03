@@ -1,0 +1,2 @@
+Make the images pop up by class so they both pop up at once
+add links for hosted sites
