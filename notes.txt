@@ -1,2 +1,4 @@
-Make the images pop up by class so they both pop up at once
+Make the images pop up by class so they both pop up at once CHECK
 add links for hosted sites
+
+https://docs.google.com/document/d/1kknpc--xHUPnuc5a10sQ6bT4jG38zPNnsSGcOt_qVbc/edit?usp=sharing

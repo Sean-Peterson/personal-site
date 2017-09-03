@@ -34,6 +34,24 @@ li{
   z-index: -2;
   filter: grayscale(1);
 }
+.footer{
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, .7);
+
+}
+.footer-text{
+  color: gray;
+}
+
+.footer-img{
+  margin-left: 35px;
+  height: 50px;
+  width: 50px;
+}
 .headers{
   text-align: center;
   font-size: 32px;
@@ -79,6 +97,9 @@ li{
   padding: 0px 0px 0px 50px;
   text-align: left;
   font-weight: bold;
+}
+#email{
+  margin-left: 10px
 }
 #full-name{
   font-size: 24px;
