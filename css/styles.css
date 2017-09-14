@@ -17,22 +17,18 @@ li{
   text-align: center;
 }
 .content{
-  margin: 100px 50px 100px 50px;
-  background-color: rgba(247, 247, 247, .82);
-  box-shadow: 4px 6px 40px 2px #888888;
+  padding:20px 0px 20px 0px;
+  margin: 20px 0px 20px 0px;
+  background-color: rgba(255, 255, 255, .9);
+  text-align: center;
 }
 .content a{
   color: black;
   text-decoration: underline;
 }
-.content p{
-  font-size: 20px;
-  padding: 0px 50px 20px 50px;
-  text-align: left;
-}
 .first-section{
-  height: 74vh;
-  width: 100vw;
+  margin: 150px 0px 150px 0px;
+
 }
 .fixed{
   background-image: url("images/coast.jpeg");
@@ -50,7 +46,6 @@ li{
   font-weight: bold;
   width: 100%;
   color: white;
-  /*background-color: rgba(0, 0, 0, .7);*/
 
 }
 .footer-text{
@@ -59,8 +54,8 @@ li{
 
 .footer-img{
   margin-left: 35px;
-  height: 50px;
-  width: 50px;
+  height: 25px;
+  width: 25px;
 }
 .headers{
   text-align: center;
@@ -68,8 +63,8 @@ li{
   padding: 20px 20px 20px 20px;
 }
 .images{
-  height: 200px;
-  width: 400px;
+  height: 250px;
+  width: 420px;
   margin: 0 auto;
 }
 .images:hover{
@@ -82,12 +77,10 @@ li{
 }
 .nav-bar{
   height: 50px;
-  position: fixed;
   text-align: right;
   font-weight: bold;
   width: 100%;
-  color: white;
-  background-color: rgba(0, 0, 0, .7);
+  color: black;
 }
 .nav-bar p{
   display: inline-block;
@@ -95,33 +88,69 @@ li{
   padding-top: 1.5vh;
 }
 .nav-bar a{
-  color: white;
+  color: black;
 }
 .pop{
   height: 100%;
   width: 100%;
   margin: 0 auto;
 }
+.projects{
+  text-align: center;
+  box-shadow: 4px 4px 20px 1px #888888;
+  height: 370px;
+  width: 420px;
+  margin: 10px 10px 20px 10px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: white;
+}
+.projects p{
+  font-size: 20px;
+  text-align: left;
+  padding-left: 15px;
+}
+.description{
+  padding: none;
+}
 .sub-headers{
-  padding: 0px 0px 0px 50px;
+  padding: 0px 0px 0px 15px;
   text-align: left;
   font-weight: bold;
-  text-decoration: underline;
+}
+.sub-headers a{
+  text-decoration: none;
+}
+#aboutme{
+  padding: 20px 0px 20px 0px;
+}
+#aboutme p{
+  font-size: 20px;
+  padding: 0px 50px 20px 50px;
+  text-align: left;
 }
 #email{
   margin-left: 10px
 }
-#full-name{
-  font-size: 24px;
-  margin-right: 12px;
-}
 #in-nav{
   font-size: 12px;
 }
-#name{
-  padding-top: 8px;
-  font-size: 1.3em;
+#mm:hover{
+  cursor: auto;
+}
+#myPic{
   float: left;
+  height: 500px;
+  width: 370px;
+  padding: 9px 10px 0px 10px;
+}
+#name{
+  text-align: center;
+}
+#name h1{
+  font-size: 60px;
+  font-style: bold;
+  color: black;
 }
 #nav-first{
   margin-left: 1vw;

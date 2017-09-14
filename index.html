@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -12,83 +12,105 @@
     <link rel="shortcut icon" href="assets\icons\favicon.png" type="image/x-icon">
   </head>
   <body>
-    <div class="whole" id="wholee">
+    <div class="whole bordered" id="wholee">
       <div class="fixed">
 
       </div>
       <div class="nav-bar ">
-        <p id="name"><span id="full-name"><a href="#wholee">Sean David Peterson</a></span><span id="in-nav">software developer</span></p><p id="nav-first"><a href="#me">Me</a></p><p id="nav-second"><a href="#work">Projects I'm most proud of</a></p><p id="nav-third"><a href="#foot">Get in touch</a></p>
+        <p id="nav-first"><a href="#proj">Projects</a></p><p id="nav-second"><a href="#me">About Me</a></p><p id="nav-third"><a href="#name">Contact</a></p>
       </div>
-      <div class="first-section ">
-      </div>
-      <div class="content hidden">
-        <h3 class="headers" id="me">Me</h3>
-        <hr>
-        <p>
-          I was five years old and getting scolded by my parents for deconstructing, and possibly ruining, our tv remote. That's one of the earliest memories I can recall; and the beginning of my interest in learning how things work. I believe that interest is what led me to become a software developer. Software development provides endless problems that need solutions. Each problem just needs to be understood and solved. Everyday that I am developing I get opportunities to figure out how a problem is working, or not working, and solve it. I love software development.
-        </p>
-        <p>
-          My coding journey began in 2014. I was a founder of a startup called Cliq. During the startup process I became interested in coding and started messing around on codeacademy.com. The startup failed, but my interest in coding had just begun. I enrolled in Epicodus, a coding bootcamp that is ranked top 5 nationally, located in Portland, Oregon.
-        </p>
-        <p>
-          At Epicodus we completed over 45 hours of pair-programming per week for 25 weeks. We learned git, html5, css, js, angular.js, ember.js, mysql, php, silex, and drupal. After the classes were over I won an internship at SimB & CO. During the internship I had a week to learn how to use Symfony2 framework and Docker CaaS. After learning the new technologies the other intern and I had to develop an entire website for a paying client. We developed a training website for the National Guard and OHSU. The project required us to architect a database, create controllers, and design views. It was truly a full-stack job.
-        </p>
-        <p>
-          After completing my classes at Epicodus I lacked confidence and was unsure if I would be an asset or liability to a company. After rocking my internship and personal projects, I have full confidence in my ability to code and learn new technologies. Without a doubt I can be a real asset to any company.
-        </p>
-        <p>
-          Since my internship concluded I have been working on my personal project Take Home. Areas of focus have been on deployment and how to configure the project to be deployed to different hosting services. My next move for Take Home is to make a budgeting feature so that users can have more control over the outcome of the calculations. Then I will add in user authentication so that user can log in and save their budgets. Finally, I will give the UI an update to make the site more appealing to users.
-        </p>
-        <div class="list">
-          <span>Highlights about me:</span>
-          <li>B.S. in Business Administration focus in Marketing, Oregon State University 2014</li>
-          <li>Have been to 4 continents and learned priceless lessons from experiencing different cultures</li>
-          <li>If I could only play one video game for the rest of my life then it would be League of Legends</li>
-          <li>Cycling is one of my favorite hobbies</li>
-          <li>I very much enjoy nice sound equipment and my favorite band right now is Future Islands</li>
-          <hr>
+      <div class="first-section">
+        <div id="name">
+          <h1>&ltI'm Sean. I write code./&gt</h1>
+        </div>
+        <div class="hidden footer" id="foot">
+          <a href="https://github.com/Sean-Peterson"><img class="footer-img" src="assets\icons\github.svg" alt="Sean Peterson github.com"></a><a href="https://www.linkedin.com/in/seanpeterson11/"><img class="footer-img" src="assets\icons\linkdin.svg" alt="Sean Peterson linkdin.com"></a><a class="footer-text" href="https://docs.google.com/document/d/1UKgv2H_fcCqGt_duyHzyYxSRq3z_4vwe7UndVY9YtP8/edit?usp=sharing"><img class="footer-img" src="assets\icons\gold.png" alt="Sean Peterson resume"> Resume</a><img class="footer-img" src="assets\icons\gmail.png" alt="Sean Peterson gmail.com"><span class="footer-text" id="email">seanpeterson11@gmail.com</span>
         </div>
       </div>
-      <div class="content hidden">
-        <h3 class="headers" id="work">Projects I'm Most Proud of</h3>
-        <hr>
-        <h3 class="sub-headers"><a href="https://financial-db-practice.herokuapp.com/">Take Home</a></h3>
-        <p>Take Home provides users the ability to calculate how much money the user will be taking home after taxes and living expenses based on which city the user lives in. Users can also compare two cities at one time. For example, if a user has a job offer in Los Angeles for 90k and one in San Francisco for 100k then the user can compare the two cities to see in which city they will take home more money. This app was created using symfony2 and is hosted on Heroku using a postgresql db addon. It is hosted at takehome.financial <a href="https://financial-db-practice.herokuapp.com/">Visit Hosted Site</a></p>
-        <div class="center">
-        <img class="images th" id="th0" src="assets\images\take-home0.png" alt="https://take-home.herokuapp.com/">
-        <img class="images th" id="th1" src="assets\images\take-home1.png" alt="https://take-home.herokuapp.com/">
+      <div class="content bordered hidden" id="proj">
+          <div class="projects">
+            <div class="center">
+              <a href="https://financial-db-practice.herokuapp.com/"><img class="images th" id="th0" src="assets\images\take-home0.png" alt="https://take-home.herokuapp.com/"></a>
+            </div>
+            <h3 class="sub-headers"><a href="https://financial-db-practice.herokuapp.com/">Take Home</a></h3>
+            <p class="description">
+              Calculates how much money you take home after taxes and cost of living
+            </p>
+          </div>
+          <div class="projects">
+            <div class="center">
+              <a href="https://www.landgramapp.com/"><img class="images lg" id="th0" src="assets\images\landgram.png" alt="landgram image"></a>
+            </div>
+            <h3 class="sub-headers"><a href="https://www.landgramapp.com/">LandGram</a></h3>
+            <p class="description">
+              An app that I was hired to create a website for. Polaroid meets machine learning
+            </p>
+          </div>
+          <div class="projects">
+            <div class="center">
+              <a href="https://dreamboard-b5976.firebaseapp.com/"><img class="images drm" id="drm0" src="assets\images\dream0.png" alt="https://dreamboard-b5976.firebaseapp.com/"></a>
+            </div>
+            <h3 class="sub-headers"><a href="https://dreamboard-b5976.firebaseapp.com/">Dream Board</a></h3>
+            <p class="description">
+              Personal travel blog and photosharing service.
+            </p>
+          </div>
+          <div class="projects">
+            <div class="center">
+              <a href="https://codependency-45156.firebaseapp.com/"><img class="images cd" id="cd0" src="assets\images\cd0.png" alt="https://codependency-45156.firebaseapp.com/"></a>
+            </div>
+            <h3 class="sub-headers"><a href="https://codependency-45156.firebaseapp.com/">CODEpendency</a></h3>
+            <p class="description">
+              Solves the problem of carrying physical flashcards around.
+            </p>
+          </div>
+          <div class="projects">
+            <div class="center">
+              <a href="https://kegger-cee7b.firebaseapp.com/"><img class="images tr" id="tr0" src="assets\images\taproom.png" alt="https://kegger-cee7b.firebaseapp.com/"></a>
+            </div>
+            <h3 class="sub-headers"><a href="https://kegger-cee7b.firebaseapp.com/">Tap Room</a></h3>
+            <p class="description">
+              Keeps track of keg levels, displays your beers to customers, provides a POS system
+            </p>
+          </div>
+          <div class="projects">
+            <div class="center">
+              <img class="images tr" id="mm" src="assets\images\mastermind.png" alt="mastermind">
+            </div>
+            <h3 class="sub-headers">Mastermind</h3>
+            <p class="description">
+              Are you a replicant? Take this test to prove it.
+            </p>
+          </div>
       </div>
-        <hr>
-        <h3 class="sub-headers"><a href="https://www.landgramapp.com/">LandGram</a></h3>
-        <p>LandGram is an app that I was hired to create a website for. I built the webpage as a single HTML page and hosted it on their domain at Godaddy.com. Then the client came back and asked if there could be a landgramapp.com/download that would automatically redirect the visitor to the app in the Apple app store. I explained that we would need to create an entire new website because we cant route with a basic html page. So, I built an Angular2 project and hosted the new files within 2 hours. <a href="https://www.landgramapp.com/">Visit Hosted Site</a></p>
-        <div class="center">
-        <img class="images th" id="th0" src="assets\images\landgram.png" alt="https://take-home.herokuapp.com/">
-      </div>
-        <hr>
-        <h3 class="sub-headers"><a href="https://dreamboard-b5976.firebaseapp.com/">Dream Board</a></h3>
-        <p>Dream Board is personal travel blog and photosharing service. My girlfriend Morgan and I are planning a trip to Asia and wanted to share our experience with friends and family. So, I decided to create a way to share our experiences. Visitors can filter the results by clicking on a flag. The app uses OAuth for security. Only Morgan and myself are able to create, update, and delete data. Anyone can view the site. Dream Board is an angular2 firebase app. <a href="https://dreamboard-b5976.firebaseapp.com/">Visit Hosted Site</a></p>
-        <div class="center">
-        <img class="images drm" id="drm0" src="assets\images\dream0.png" alt="https://dreamboard-b5976.firebaseapp.com/">
-        <img class="images drm" id="drm1" src="assets\images\dream1.png" alt="https://dreamboard-b5976.firebaseapp.com/">
-      </div>
-        <hr>
-        <h3 class="sub-headers"><a href="https://codependency-45156.firebaseapp.com/">CODEpendency</a></h3>
-        <p>CODEpendency was created to help all students at Epicodus study for technical interviews. It is a flashcard app that solves the problem of carrying physical flashcards around. CODEpendency uses an algorithim to make questions that a user gets wrong appear more often. All users can view any deck and answer the questions. When the user decides to "flip" the card to see the answer then the users marks if he/she got the answer right. Each question and answer are saved to the logged in user and that each instance puts a weight on which card will appear next. CODEpendency is an angular2 firebase app. <a href="https://codependency-45156.firebaseapp.com/">Visit Hosted Site</a></p>
-        <div class="center">
-        <img class="images cd" id="cd0" src="assets\images\cd0.png" alt="https://codependency-45156.firebaseapp.com/">
-        <img class="images cd" id="cd1" src="assets\images\cd1.png" alt="https://codependency-45156.firebaseapp.com/">
-      </div>
-        <hr>
-        <h3 class="sub-headers"><a href="https://kegger-cee7b.firebaseapp.com/">Tap Room</a></h3>
-        <p>Tap Room keeps track of keg levels, displays your beers to customers, provides a POS system, and admin crud functionality. Tap Room is an angular2 firebase app. <a href="https://kegger-cee7b.firebaseapp.com/">Visit Hosted Site</a></p>
-        <div class="center">
-        <img class="images tr" id="tr0" src="assets\images\taproom.png" alt="https://kegger-cee7b.firebaseapp.com/">
-        <img class="images tr" id="tr1" src="assets\images\taproom1.png" alt="https://kegger-cee7b.firebaseapp.com/">
-      </div>
-        <hr>
-      </div>
-      <div class="hidden footer" id="foot">
-        <a href="https://github.com/Sean-Peterson"><img class="footer-img" src="assets\icons\github.svg" alt="Sean Peterson github.com"></a><a href="https://www.linkedin.com/in/seanpeterson11/"><img class="footer-img" src="assets\icons\linkdin.svg" alt="Sean Peterson linkdin.com"></a><a class="footer-text" href="https://docs.google.com/document/d/1UKgv2H_fcCqGt_duyHzyYxSRq3z_4vwe7UndVY9YtP8/edit?usp=sharing"><img class="footer-img" src="assets\icons\gold.png" alt="Sean Peterson resume"> Resume</a><img class="footer-img" src="assets\icons\gmail.png" alt="Sean Peterson gmail.com"><span class="footer-text" id="email">seanpeterson11@gmail.com</span>
+      <br>
+      <h3 class="headers hidden" id="me">About me</h3>
+        <div class="content bordered hidden" id="aboutme">
+          <img id="myPic" src="assets\images\elephants.jpg" alt="Sean Peterson Elephants">
+          <p>
+            I was five years old and getting scolded by my parents for deconstructing, and possibly ruining, our tv remote. That's one of the earliest memories I can recall; and the beginning of my interest in learning how things work. I believe that interest is what led me to become a software developer. Software development provides endless problems that need solutions. Each problem just needs to be understood and solved. Everyday that I am developing I get opportunities to figure out how a problem is working, or not working, and solve it. I love software development.
+          </p>
+          <p>
+            My coding journey began in 2014. I was a founder of a startup called Cliq. During the startup process I became interested in coding and started messing around on codeacademy.com. The startup failed, but my interest in coding had just begun. I enrolled in Epicodus, a coding bootcamp that is ranked top 5 nationally, located in Portland, Oregon.
+          </p>
+          <p>
+            At Epicodus we completed over 45 hours of pair-programming per week for 25 weeks. We learned git, html5, css, js, angular.js, ember.js, mysql, php, silex, and drupal. After the classes were over I won an internship at SimB & CO. During the internship I had a week to learn how to use Symfony2 framework and Docker CaaS. After learning the new technologies the other intern and I had to develop an entire website for a paying client. We developed a training website for the National Guard and OHSU. The project required us to architect a database, create controllers, and design views. It was truly a full-stack job.
+          </p>
+          <p>
+            After completing my classes at Epicodus I lacked confidence and was unsure if I would be an asset or liability to a company. After rocking my internship and personal projects, I have full confidence in my ability to code and learn new technologies. Without a doubt I can be a real asset to any company.
+          </p>
+          <p>
+            Since my internship concluded I have been working on my personal project Take Home. Areas of focus have been on deployment and how to configure the project to be deployed to different hosting services. My next move for Take Home is to make a budgeting feature so that users can have more control over the outcome of the calculations. Then I will add in user authentication so that user can log in and save their budgets. Finally, I will give the UI an update to make the site more appealing to users.
+          </p>
+          <div class="list">
+            <span>Highlights about me:</span>
+            <li>B.S. in Business Administration focus in Marketing, Oregon State University 2014</li>
+            <li>Have been to 4 continents and learned priceless lessons from experiencing different cultures</li>
+            <li>If I could only play one video game for the rest of my life then it would be League of Legends</li>
+            <li>Cycling is one of my favorite hobbies</li>
+            <li>I very much enjoy nice sound equipment and my favorite band right now is Future Islands</li>
+          </div>
+        </div>
       </div>
     </div>
   </body>
