@@ -1,7 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
 @font-face {
     font-family: regular;
-    src: url("assets/SF-UI-Display-Regular.otf") format("opentype");
+    src: url("../assets/fonts/Webfont Kit/Regular/aleo-regular-webfont.ttf") format("opentype");
 }
 ::-webkit-scrollbar {
   display: none;
@@ -27,7 +26,7 @@ li{
   text-decoration: underline;
 }
 .first-section{
-  margin: 150px 0px 150px 0px;
+  margin: 200px 0px 200px 0px;
 
 }
 .fixed{
@@ -61,6 +60,7 @@ li{
   text-align: center;
   font-size: 50px;
   padding: 20px 20px 20px 20px;
+  margin-bottom: 50px;
 }
 .images{
   height: 250px;
