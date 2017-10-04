@@ -9,9 +9,6 @@ li{
   list-style-type: none;
   margin-left: 10px;
 }
-.whole{
-  font-family: regular;
-}
 .center{
   text-align: center;
 }
@@ -24,6 +21,9 @@ li{
 .content a{
   color: black;
   text-decoration: underline;
+}
+.description{
+  padding: none;
 }
 .first-section{
   margin: 200px 0px 200px 0px;
@@ -110,9 +110,6 @@ li{
   text-align: left;
   padding-left: 15px;
 }
-.description{
-  padding: none;
-}
 .sub-headers{
   padding: 0px 0px 0px 15px;
   text-align: left;
@@ -120,6 +117,9 @@ li{
 }
 .sub-headers a{
   text-decoration: none;
+}
+.whole{
+  font-family: regular;
 }
 #aboutme{
   padding: 20px 0px 20px 0px;
@@ -142,7 +142,7 @@ li{
   float: left;
   height: 500px;
   width: 370px;
-  padding: 9px 10px 0px 10px;
+  padding: 5px 10px 0px 10px;
 }
 #name{
   text-align: center;
